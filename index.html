@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aplicativo de fotos de gatinhos</title>
+    </head>
+    <body> <!-- tudo que for visivel no projeto vai aqui ;) -->
+        <h2>Aplicativo de fotos de gatinhos</h2>
+        <main>
+            <h3>Fotos de gatinhos</h3>
+            <!-- TODO: transformar em link -->
+            <p>Clique aqui para ver mais <a href="#" target="_blank">fotos de gatinhos</a></p>
+            
+            <a href="#" target="_blank" >
+                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" alt="Um gato branco fofinho olhando para cima ">
+            </a>
+
+            <h1>Lista Felina</h1>
+            <div class="lists">
+                <p>mercadorias <strong>felinas</strong></p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>lasers</li>
+                    <li>lasanha</li>
+                </ul>
+
+                <img src="imgs/lasanha.jfif" alt="lasanha">
+
+                <p>Lista <strong>anti-felina</strong></p>
+                <ul>
+                    <ul>água</ul>
+                    <ul>outros gatos</ul>
+                </ul>
+            </div>
+            <img src="https://www.petz.com.br/blog/wp-content/uploads/2017/07/filhote-gato-01.jpg" alt="varios gagos">
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> indoor </label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> outdoor </label><br>
+
+                <label for="amometro"><input type="checkbox" id="amometro" name="fofo" checked>FOFO</label><br>
+                <label for="bravo"><input type="checkbox" id="bravo" name="bravo">BRAVO</label><br>
+                <label for="animado"><input type="checkbox" id="animado" name="animado">ANIMADO</label><br>
+                
+                <input type="text" placeholder="url da Foto do gago " required><br>
+                <button type="submit" >enviar</button>
+            </form>
+            
+        </main>
+        <footer>
+            <p><small> No Copyright - feito com <a target="_blank" href="https://www.youtube.com/watch?v=916GWv2Qs08&list=PLWKjhJtqVAbmMuZ3saqRIBimAKIMYkt0E&index=2">freecodecamp</a> </small></p>
+        </footer>
+    </body>
+</html> 
